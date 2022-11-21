@@ -8,7 +8,7 @@ function Timer() {
         min: 0,
         sec: 0,
         ms: 0
-    } // let interval = 
+    }
     const [time, setTime] = useState(Intialtime)
     const [stop, setStop] = useState()
 

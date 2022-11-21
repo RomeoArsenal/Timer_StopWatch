@@ -7,7 +7,7 @@ function Stopwatch() {
         min:0,
         sec:0,
         ms:0
-      } // let interval = 
+      }
     const [time,setTime]= useState(Intialtime)
     const[stop,setStop]= useState()
 
@@ -25,10 +25,7 @@ function Stopwatch() {
        {
            _time = {..._time,sec:_time.sec+1,ms:0}
        }
-    //    if(_time.ms == 1000)
-    //    {
-    //        _time = {..._time,sec:_time.sec+1,ms:0}
-    //    }
+ 
        if(_time.sec == 60)
        {
            _time = {..._time,min:_time.min+1,sec:0}
